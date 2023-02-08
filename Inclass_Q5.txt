@@ -1,0 +1,26 @@
+print("Welcome to our restaurant")
+print("1. Pizza")
+print("2. Cheese Burger")
+print("3. Street Tacos")
+choice = int(input("Please enter 1 if you want to order Pizza, 2 if you want a Cheese Burger, 3 if you want to order street tacos, 4 if you didn't like anything on the menu: "))
+
+if choice == 1: 
+    num_pizza = int(input("\nHow many pizzas would you like? ")) 
+    price_pizza = num_pizza * 10  
+    print(f"\nYou have ordered {num_pizza} pizzas and your total price is ${price_pizza}.")  
+elif choice == 2:  
+    num_burger = int(input("\nHow many cheese burgers would you like? "))  
+    price_burger = num_burger * 5
+    print(f"\nYou have ordered {num_burger} cheese burgers and your total price is ${price_burger}.")  
+elif choice == 3:  
+    num_taco = int(input("\nHow many tacos would you like?"))
+    price_taco = num_taco * 8
+    print(f"\nYou have ordered {num_taco} street tacos and your total price is ${price_taco}.")
+
+response = str(input("\nIf you can please fill out this survey and rate us in order to win a free drink and a free burger on the house!\n"+"\n"))
+
+rating = int(input("\nRate this place out of 5 stars: "))
+
+print("\nYou rated this place " + str(rating) + " out of 5 stars.")
+
+print("\nThank you for taking the survey please come back again soon")

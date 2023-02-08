@@ -1,0 +1,8 @@
+print("Welcome to the Password Program!") 
+  
+password = input("Please enter your password: ") 
+  
+if password == "0607": 
+    print("Access Granted!") 
+else: 
+    print("Access Denied!")
