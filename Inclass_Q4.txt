@@ -1,0 +1,12 @@
+h_worked = int(input("How many hours did you work this week? "))
+h_pay = float(input("What is your hourly pay? "))
+
+if h_worked > 40:
+    overtime = (h_worked - 40) * (h_pay * 1.5)
+    regular = 40 * h_pay
+    total_pay = overtime + regular 
+else: 
+    total_pay = h_worked * h_pay 
+    
+print("Your total pay for the week is $" + str(total_pay))
+

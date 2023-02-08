@@ -1,0 +1,19 @@
+credits = int(input("Enter the number of credits you have completed: "))
+#could possibly use a for loop but i couldnt figure it out :( 
+if 0 <= credits <= 30:
+    grade_level = "Freshman"
+elif 31 <= credits <= 60:
+    grade_level = "Sophomore"
+elif 61 <= credits <= 90:
+    grade_level = "Junior" 
+elif 91 <= credits <= 122: 
+    grade_level = "Senior" 
+else:  
+    print("You entered an invalid number, please try again!")  
+
+print(f"You are a {grade_level}")
+
+'''
+using for loop only gains the int var of the input 
+
+'''
