@@ -3,8 +3,8 @@ colors = ('blue', 'red', 'green', 'orange', 'pink', 'purple', 'red')
 
 print(len(colors))
 
-print(colors[1], colors[2]) 
-print(colors[-4], colors[-3]) 
+print(colors[1:3]) 
+print(colors[-4:-2]) 
 
 print('red' in colors) 
 
